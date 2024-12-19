@@ -1,0 +1,34 @@
+.content{
+    display: grid;
+    position: relative;
+
+
+}
+
+.content div{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.top{
+background-color: #732314;
+opacity: 0.8;
+z-index: 1;
+
+}
+
+.bottom{
+background-color: #4c4cb5;
+top: 90px;
+left: 90px;
+}
+
+.middle{
+    background-color: #4cb54c;
+    opacity: 0.8;
+    top: 156px;
+    left: 129px;
+
+}

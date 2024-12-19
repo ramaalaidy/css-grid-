@@ -1,0 +1,26 @@
+.content{
+    display: grid;
+    border: 1px solid #93a2a9;
+    width: 850px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.second-content{
+    border: 1px solid #93a2a9;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,157px);
+    column-gap: 190px;
+    row-gap: 19px;
+    row-gap: 50px;
+}
+.second-content div{
+    background-color: #93a2a9;
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

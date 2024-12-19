@@ -1,0 +1,9 @@
+.contenr{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 10px;
+}
+.contenr div{
+    background-color: rgb(126, 126, 231);
+    height: 100px;
+}
